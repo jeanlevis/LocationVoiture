@@ -1,11 +1,99 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body style="background-color:#6c5ce7 ;">
-    <h2 style="text-align: center; padding-top: 20%; padding-bottom: 20%; color: aliceblue;">Location de voitures en cours de conception...</h2>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>index.html</title>
+        <link rel="stylesheet" href="/usr/local/share/emacs/site-lisp/git/ProjetGit/LocationVoiture/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    </head>
+<body>
+        <div class="container_navigation">   
+
+            <nav class="navigation_menu">
+                <h1>MA BARE DE NAVIGATION</h1>
+            </nav>
+
+            <menu>
+                <h2>LE MENU </h2>
+                <ul>
+                    <li>Acueil</li>
+                    <li>Nouveauté</li>
+                    <li>Reservation</li>
+                    <li>Contacts</li>
+                </ul>
+            </menu>
+
+        </div>  
+        <div class="corp-conteneur">
+
+            <div class="container_gauche">
+                <h2>conteneur de gauche</h2>
+            </div>
+
+            <div class="container_milieu">
+                <h1>conteneur milieu</h1>
+                <h2 class="milieu">Location de voitures en cours de conception...</h2>
+            </div>
+
+            <div class="container_droite">
+                <h2>conteneur droite</h2>
+            </div>
+
+            <div class="container_bas">
+                <h2>conteneur du bas</h2>
+            </div>
+
+        </div>
+
+    <footer class="pied_page">
+
+        <h1> LE PIED DE PAGE </h1>
+        
+        <form class="form-contact">
+
+            <h2> CONTACTEZ-NOUS </h2>
+            <div class="separation"></div>
+            <div class="corp_formulaire">
+                <div class="gauche">
+                    <div class="boite">
+                        <label>Votre Prénom</label>
+                        <input type="text">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="boite">
+                        <label>Votre adresse Email</label>
+                        <input type="text">
+                    </div>
+                    <div class="boite">
+                        <label>Votre Téléphone</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="droite">
+                    <div class="boite">
+                        <label>Message</label>
+                        <textarea></textarea>
+                    </div>
+                </div>
+                <div class="matable1">
+                    <table border="1" Cellpacing="1" bgcolor="white" class="tableau1" Cellpadding="2">
+                        <caption align="top"><h2>Le Code HTML correspondant à un tableau</h2></caption>
+                        <tr><th rowspan="2">SERVICE</th><th colspan="2">IDENTIFICATION DE L'AGENT</th></tr>
+                        <tr><th>Nom</th><th>Contact</th></tr>
+                        <tr><th rowspan="3">COURRIER</th><td>Kouadio Charles</td><td>0506488583</td></tr>
+                        <tr><td>Koné Salimata</td><td>0546370955</td></tr>
+                        <tr><td>Dion Jacques</td><td>0708414048</td></tr>
+                        <tr><th rowspan="2">INFORMATIQUE</th><td>Assemien Nadège</td><td>0060733744</td></tr>
+                        <tr><td>Coly Léa</td><td>0060744723</td></tr>
+                    </table>  
+                </div>  
+            </div>
+                <div class="pied_formulaire" align="left" >
+                    <button>Envoyer le message</button>
+                    <button id="mail1"><a href="mailto:ligbetlevis2l@gmail.com">Envoyer moi un mail</a></button>
+                </div>
+        </form>
+    </footer>
 </body>
 </html>
